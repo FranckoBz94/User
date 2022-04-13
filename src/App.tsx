@@ -7,7 +7,6 @@ import UserTable from "./app/components/UserTable"
 import history from "./history"
 import UserRegister from "./app/components/UserRegister"
 import UserLoggedDay from "./app/components/UserLoggedDay"
-import Detail from "./prueba"
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
         <Switch>
           <Route path="/" exact={true} component={Login} />
           <Route path="/login" exact={true} component={Login} />
-          <Route path="/prueba" exact={true} component={Detail} />
           <Route path="/registro" exact={true} component={Register} />
           <Route path="/User" exact={true} component={UserTable} />
           <Route path="/logueos_dia" exact={true} component={UserLoggedDay} />
